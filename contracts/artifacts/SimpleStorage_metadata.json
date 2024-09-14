@@ -6,6 +6,74 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -16,19 +84,6 @@
 				"name": "store",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "thisNum",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -60,11 +115,11 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0xfb8b5c7fdb133cb6a42aea646c02fbb7baa4d5387b7b577a5076c7328c7c8aff",
+			"keccak256": "0x441bda0f21f5e49ce0c1d2f8a1f04256ee716917b5ac0b24623f08726fe7e0e5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://aa8a52cad0d902bc087da845198a68c328b3af32dc2f5e21cb250d672d1b3792",
-				"dweb:/ipfs/QmQ1RpknqDp8BuZZcdPNcoPkuSwzmQBQrJNEhRkHfq5jze"
+				"bzz-raw://39ae65ae5ea082f2841f04ae4561379e1f9264c0b2aac454588e280553a58690",
+				"dweb:/ipfs/Qmebn86CryfUtKTTfz8VdhWBYQSTL6L6DsoNRhGDmp222s"
 			]
 		}
 	},
